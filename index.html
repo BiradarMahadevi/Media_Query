@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+  <title>Document</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+      }
+    }
+
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: rgb(124, 99, 214);
+      }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: rgb(198, 144, 170);
+      }
+    }
+
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+    .project1{
+      width: 300px;
+      height:100px;
+      border: 2px solid black;
+      float: bottom;
+      background-color: rgb(144, 224, 244);
+      color: rgb(10, 10, 72);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h2{
+      color: rgb(96, 4, 101);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h1{
+      color: rgb(4, 40, 20);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    footer{
+      text-align: center;
+
+    }
+  </style>
+</head>
+
+<body> 
+  <center>
+<h1>Welcome To My Website !</h1>
+<h2>Here are some of my projects !</h2>
+<div class="project1">
+   <h3>1) Project of movie rating </h3>
+   <a href="./Portfolio Project/Movie_ranking.html">Movie Ranking Project</a>
+   </div>
+   <br>
+   <div class="project1">
+    <h3>2) Project of birthday Invitation </h3>
+    <a href="./Portfolio Project/Birthday_invitation.html"> Birthday Invitation Project</a>
+   </div>
+   <br>
+   <div class="project1">
+    <h3>3) My Resume Sample ! </h3>
+    <a href="./Resume/index.html">My resume is here</a>
+    </div>
+    <br>
+    <br>
+    <a href="./Resume/contact_me.html">contact me</a> | <a href="./Portfolio Project/about.html">about me</a>
+    <br>
+    <br>
+    </center>
+<footer>
+  <p>copyrigth © 2024 Web development </p>
+
+</footer>
+
+</body>
+
+</html>
